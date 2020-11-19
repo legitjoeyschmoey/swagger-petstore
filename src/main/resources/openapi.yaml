@@ -225,7 +225,7 @@ paths:
       tags:
         - pet
       summary: Updates a pet in the store with form data
-      description: ''
+      description: 'hey-o'
       operationId: updatePetWithForm
       parameters:
         - name: petId
@@ -672,7 +672,7 @@ components:
           example: CA
         zip:
           type: string
-          example: 94301
+          example: '94301'
       xml:
         name: address
       type: object
@@ -710,10 +710,10 @@ components:
           example: john@email.com
         password:
           type: string
-          example: 12345
+          example: '12345'
         phone:
           type: string
-          example: 12345
+          example: '12345'
         userStatus:
           type: integer
           format: int32
